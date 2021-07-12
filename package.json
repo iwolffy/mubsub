@@ -1,6 +1,6 @@
 {
-  "name": "mubsub",
-  "version": "1.4.0",
+  "name": "mubsub-upd",
+  "version": "1.0.0",
   "description": "Pub/sub for Node.js and MongoDB",
   "homepage": "http://github.com/scttnlsn/mubsub",
   "author": "Scott Nelson <scott@scttnlsn.com>",
@@ -17,17 +17,21 @@
     {
       "name": "Oleg Slobodskoi",
       "email": "oleg008@gmail.com"
+    },
+    {
+      "name": "Wollfy Liu",
+      "email": "josh.liu@qq.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/scttnlsn/mubsub.git"
+    "url": "git://github.com/iwolffy/mubsub.git"
   },
   "dependencies": {
-    "mongodb": "^2.0.35"
+    "mongodb": "^3.1.13"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^9.0.2"
   },
   "scripts": {
     "test": "mocha test --timeout 10000",
